@@ -28,7 +28,7 @@ const Base = styled.div`
   flex: none;
   gap: 8px;
   border-radius: 2px;
-  background-color: rgb(24, 106, 222);
+  background-color: blue;
   box-sizing: border-box;
   padding: 6px 16px;
 `;
