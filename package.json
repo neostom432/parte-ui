@@ -65,5 +65,8 @@
     "url": "https://github.com/rubric-dev/parte-ui/issues"
   },
   "homepage": "https://github.com/rubric-dev/parte-ui#readme",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "eslint-plugin-unused-imports": "^2.0.0"
+  }
 }
