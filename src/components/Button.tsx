@@ -11,14 +11,15 @@ export function Button() {
   );
 }
 
-const RootWrapperButtonBasicM = styled.div`
-  display: flex;
-  justify-content: flex-start;
-  flex-direction: row;
-  align-items: flex-start;
-  flex: none;
-  box-sizing: border-box;
-`;
+const RootWrapperButtonBasicM = styled('div')(({ theme }) => ({
+  display: 'flex',
+  justifyContent: 'flex-start',
+  flexDirection: 'row',
+  alignItems: 'flex-start',
+  flex: 'none',
+  boxSizing: 'border-box',
+  backgroundColor: theme.palette.yellow70,
+}));
 
 const Base = styled.div`
   display: flex;

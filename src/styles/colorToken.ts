@@ -1,4 +1,4 @@
-import { palette } from './theme';
+import { palette } from './palette';
 
 /** RULES: color-tokens must be paired with background(css property) */
 export const GENERAL = {
@@ -64,14 +64,14 @@ export const GENERAL = {
     iconLight: palette.white,
     iconDark: palette.gray110,
   },
-};
+} as const;
 
 export const GLOBAL = {
   SECTION: {
     gsBrand: '#7399C6',
     gsGlobalHeader: palette.blue90,
   },
-};
+} as const;
 
 export const STATUS = {
   SURFACE_BACKGROUND: {
@@ -117,7 +117,7 @@ export const STATUS = {
     statusError: palette.red60,
     statusWarning: palette.orange50,
   },
-};
+} as const;
 
 /** RULES: color-tokens must be paired with background(css property) */
 export const STATES = {
@@ -178,7 +178,7 @@ export const STATES = {
   VISITED: {
     textLinkVisited: palette.purple70,
   },
-};
+} as const;
 /** RULES: color-tokens must be paired with background(css property) */
 export const COLOUR_RAMPS = {
   SURFACE: {
@@ -237,7 +237,7 @@ export const COLOUR_RAMPS = {
     purpleRampSubtleText: palette.purple70,
     pinkRampSubtleText: palette.pink70,
   },
-};
+} as const;
 /** RULES: color-tokens must be paired with background(css property) */
 export const BUTTON = {
   SURFACE: {
@@ -267,7 +267,7 @@ export const BUTTON = {
     buttonSecondaryMinimalIcon: palette.gray90,
     buttonDestructiveMinimalIcon: palette.red60,
   },
-};
+} as const;
 /** RULES: color-tokens must be paired with background(css property) */
 export const FORM = {
   SURFACE: {
@@ -280,7 +280,7 @@ export const FORM = {
     inputBorder: palette.gray40,
     inputBorderHover: palette.gray50,
   },
-};
+} as const;
 /** RULES: color-tokens must be paired with background(css property) */
 export const SWITCH = {
   SURFACE: {
@@ -288,7 +288,7 @@ export const SWITCH = {
     switchSubtleSelected: palette.blue30,
     switchSelectedDisabled: palette.blue20,
   },
-};
+} as const;
 /** RULES: color-tokens must be paired with background(css property) */
 export const TAG = {
   SURFACE: {
@@ -301,7 +301,7 @@ export const TAG = {
     tagTextSubtle: palette.blue70,
     tagTextBold: palette.white,
   },
-};
+} as const;
 /** RULES: color-tokens must be paired with background(css property) */
 export const GRIDS = {
   GENERAL: {
@@ -388,4 +388,4 @@ export const GRIDS = {
   FOCUS: {
     borderCellFocus: palette.blue60,
   },
-};
+} as const;
