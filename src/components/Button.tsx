@@ -19,6 +19,7 @@ const RootWrapperButtonBasicM = styled('div')(({ theme }) => ({
   flex: 'none',
   boxSizing: 'border-box',
   backgroundColor: theme.palette.yellow70,
+  rowGap: theme.spacing.gsUitkH0_25,
 }));
 
 const Base = styled.div`

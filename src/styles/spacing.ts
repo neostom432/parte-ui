@@ -16,4 +16,4 @@ export const spacing = {
   gsUitkH8: '64px',
   gsUitkH9: '72px',
   gsUitkH10: '80px',
-};
+} as const;
